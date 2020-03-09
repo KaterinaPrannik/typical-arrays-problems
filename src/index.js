@@ -1,4 +1,4 @@
-function min(arr) {
+exports.min = function min(arr) {
 	if (arguments.length == 0) {
 		return 0;
 	}
@@ -17,7 +17,7 @@ function min(arr) {
 	return minEl;
 }
 
-function max(arr) {
+exports.max = function max(arr) {
 	if (arguments.length == 0) {
 		return 0;
 	}
@@ -35,7 +35,7 @@ function max(arr) {
 	return maxEl;
 }
 
-function avg(arr) {
+exports.avg = function avg(arr) {
 	let avgSum = 0;
 	let avgEl;
 
