@@ -54,11 +54,3 @@ function avg(arr) {
 	return avgEl;
 }
 
-let arr = [1, 32]
-let minElement = min();
-let maxElement = max(arr);
-let avgElement = avg(arr);
-
-console.log(minElement);
-console.log(maxElement);
-console.log(avgElement);
